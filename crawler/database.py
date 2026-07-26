@@ -23,38 +23,51 @@ class DatabaseManager:
         print("[+] Connected to MySQL Database.")
 
     async def init_db(self):
-        """Creates the necessary tables if they don't exist."""
-        # Updated to include response_time_ms
-        query = """
+        # Drop the old table to avoid schema conflicts with the new string data
+        drop_query = "DROP TABLE IF EXISTS crawl_results"
+        
+        # Create the updated table
+        create_query = """
         CREATE TABLE IF NOT EXISTS crawl_results (
             id INT AUTO_INCREMENT PRIMARY KEY,
-            url VARCHAR(768) UNIQUE NOT NULL,
-            status_code INT NOT NULL,
+            url VARCHAR(500) UNIQUE,
+            status_code INT,
             response_time_ms INT,
-            crawled_at DATETIME DEFAULT CURRENT_TIMESTAMP
-        );
+            page_title VARCHAR(500),
+            h1_present BOOLEAN,
+            meta_desc TEXT,
+            has_analytics VARCHAR(255),
+            crawled_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        )
         """
-        async with self.pool.acquire() as connection:
-            async with connection.cursor() as cursor:
-                await cursor.execute(query)
-                print("[+] Database schema initialized.")
+        async with self.pool.acquire() as conn:
+            async with conn.cursor() as cursor:
+                await cursor.execute(drop_query)
+                await cursor.execute(create_query)
+                await conn.commit()
+        print("[+] Database schema initialized (fresh table created).")
 
-    # Added response_time_ms to the parameters
-    async def insert_health_data(self, url: str, status_code: int, response_time_ms: int):
-        """Inserts or updates a URL's health status and response time."""
-        # Updated query to handle the new latency parameter and update on duplicate keys
-        query = """
-        INSERT INTO crawl_results (url, status_code, response_time_ms, crawled_at)
-        VALUES (%s, %s, %s, %s)
-        ON DUPLICATE KEY UPDATE 
-            status_code = VALUES(status_code), 
-            response_time_ms = VALUES(response_time_ms),
-            crawled_at = VALUES(crawled_at);
-        """
-        async with self.pool.acquire() as connection:
-            async with connection.cursor() as cursor:
-                # Appended response_time_ms to the tuple sent to the database
-                await cursor.execute(query, (url, status_code, response_time_ms, datetime.datetime.now()))
+    # Added meta_desc to the parameters
+    async def insert_health_data(self, url, status_code, response_time_ms, page_title, h1_present, meta_desc,has_analytics):
+        """Inserts or updates a URL's health and SEO status."""
+        if not self.pool:
+            return
+            
+        async with self.pool.acquire() as conn:
+            async with conn.cursor() as cursor:
+                query = """
+                    INSERT INTO crawl_results (url, status_code, response_time_ms, page_title, h1_present, meta_desc, crawled_at)
+                    VALUES (%s, %s, %s, %s, %s, %s, %s) AS new_data
+                    ON DUPLICATE KEY UPDATE 
+                        status_code = new_data.status_code,
+                        response_time_ms = new_data.response_time_ms,
+                        page_title = new_data.page_title,
+                        h1_present = new_data.h1_present,
+                        meta_desc = new_data.meta_desc,
+                        crawled_at = new_data.crawled_at;
+                """
+                await cursor.execute(query, (url, status_code, response_time_ms, page_title, h1_present, meta_desc, datetime.datetime.now()))
+                await conn.commit()
 
     async def close(self):
         """Closes the connection pool."""

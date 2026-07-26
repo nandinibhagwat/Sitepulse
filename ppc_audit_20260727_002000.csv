@@ -1,0 +1,119 @@
+URL,Status Code,Speed (ms),Page Title,Meta Description,H1 Present,Tracking Pixels,Readiness,Issues to Fix
+https://www.python.org,200,1502,Welcome to Python.org,The official home of the Python Programming Language,1,0,Needs Attention,Missing Tracking Pixels
+https://www.python.org/success-stories/category/engineering/,200,484,Unknown,Missing,0,0,Needs Attention,Missing <h1> | Missing <meta> description | Missing Tracking Pixels
+https://www.python.org/about/help/,200,481,Unknown,Missing,0,0,Needs Attention,Missing <h1> | Missing <meta> description | Missing Tracking Pixels
+https://www.python.org/success-stories/category/arts/,200,578,Arts | Our Success Stories | Python.org,The official home of the Python Programming Language,1,0,Needs Attention,Missing Tracking Pixels
+https://www.python.org/psf-landing/,200,177,Unknown,Missing,0,0,Needs Attention,Missing <h1> | Missing <meta> description | Missing Tracking Pixels
+https://www.python.org/dev/,200,320,Unknown,Missing,0,0,Needs Attention,Missing <h1> | Missing <meta> description | Missing Tracking Pixels
+https://www.python.org/community/sigs/,200,353,Unknown,Missing,0,0,Needs Attention,Missing <h1> | Missing <meta> description | Missing Tracking Pixels
+https://www.python.org/events/python-events/2137/,200,428,PyOhio 2026 | Python.org,The official home of the Python Programming Language,1,0,Needs Attention,Missing Tracking Pixels
+https://www.python.org/events/python-events/2197/,200,106,Unknown,Missing,0,0,Needs Attention,Missing <h1> | Missing <meta> description | Missing Tracking Pixels
+https://www.python.org/events/calendars/,200,436,Unknown,Missing,0,0,Needs Attention,Missing <h1> | Missing <meta> description | Missing Tracking Pixels
+https://www.python.org/doc/essays/,200,468,Python Documentation Index | Python.org,The official home of the Python Programming Language,1,0,Needs Attention,Missing Tracking Pixels
+https://www.python.org/downloads/source/,200,644,Unknown,Missing,0,0,Needs Attention,Missing <h1> | Missing <meta> description | Missing Tracking Pixels
+https://www.python.org/downloads/ios/,200,133,Unknown,Missing,0,0,Needs Attention,Missing <h1> | Missing <meta> description | Missing Tracking Pixels
+https://www.python.org/dev/core-mentorship/,200,389,Unknown,Missing,0,0,Needs Attention,Missing <h1> | Missing <meta> description | Missing Tracking Pixels
+https://www.python.org/success-stories/category/government/,200,370,Unknown,Missing,0,0,Needs Attention,Missing <h1> | Missing <meta> description | Missing Tracking Pixels
+https://www.python.org/success-stories/,200,362,Unknown,Missing,0,0,Needs Attention,Missing <h1> | Missing <meta> description | Missing Tracking Pixels
+https://www.python.org/about/quotes/,200,398,Unknown,Missing,0,0,Needs Attention,Missing <h1> | Missing <meta> description | Missing Tracking Pixels
+https://www.python.org/psf/community-stories/,200,386,Unknown,Missing,0,0,Needs Attention,Missing <h1> | Missing <meta> description | Missing Tracking Pixels
+https://www.python.org/events/python-events/2176/,200,415,PyCon Korea 2026 | Python.org,The official home of the Python Programming Language,1,0,Needs Attention,Missing Tracking Pixels
+https://www.python.org/community/forums/,200,336,Unknown,Missing,0,0,Needs Attention,Missing <h1> | Missing <meta> description | Missing Tracking Pixels
+https://www.python.org/jobs/,200,430,Python Job Board | Python.org,The official home of the Python Programming Language,1,0,Needs Attention,Missing Tracking Pixels
+https://www.python.org/psf/,200,756,Python Software Foundation,The official home of the Python Programming Language,1,0,Needs Attention,Missing Tracking Pixels
+https://www.python.org/community/lists/,200,459,Mailing lists | Python.org,The official home of the Python Programming Language,1,0,Needs Attention,Missing Tracking Pixels
+https://www.python.org/events/python-events/2192/,200,479,PyCon Indonesia 2026 | Python.org,The official home of the Python Programming Language,1,0,Needs Attention,Missing Tracking Pixels
+https://www.python.org/dev/security/,200,463,Python Security | Python.org,The official home of the Python Programming Language,1,0,Needs Attention,Missing Tracking Pixels
+https://www.python.org/psf/conduct/,200,1602,Python Software Foundation Code of Conduct - Python Software Foundation Policies,Missing,1,0,Needs Attention,Missing <meta> description | Missing Tracking Pixels
+https://www.python.org#top,200,176,Welcome to Python.org,The official home of the Python Programming Language,1,0,Needs Attention,Missing Tracking Pixels
+https://www.python.org/events/python-user-group/past/,200,429,Our Events | Python.org,The official home of the Python Programming Language,0,0,Needs Attention,Missing <h1> | Missing Tracking Pixels
+https://www.python.org/success-stories/category/software-development/,200,482,Software Development | Our Success Stories | Python.org,The official home of the Python Programming Language,1,0,Needs Attention,Missing Tracking Pixels
+https://www.python.org/blogs/,200,475,Our Blogs | Python.org,The official home of the Python Programming Language,1,0,Needs Attention,Missing Tracking Pixels
+https://www.python.org/psf/get-involved/,200,474,👋 Hey Community Members! | Python Software Foundation,The official home of the Python Programming Language,1,0,Needs Attention,Missing Tracking Pixels
+https://www.python.org/downloads/macos/,200,113,Python Releases for macOS | Python.org,The official home of the Python Programming Language,1,0,Needs Attention,Missing Tracking Pixels
+https://www.python.org/events/python-events/,200,423,Our Events | Python.org,The official home of the Python Programming Language,0,0,Needs Attention,Missing <h1> | Missing Tracking Pixels
+https://www.python.org/download/other/,200,464,Download Python for other platforms | Python.org,The official home of the Python Programming Language,1,0,Needs Attention,Missing Tracking Pixels
+https://www.python.org/community/awards,200,886,Python Community Awards | Python Software Foundation,The official home of the Python Programming Language,1,0,Needs Attention,Missing Tracking Pixels
+https://jarbug.com/,200,1033,Jarbug - The Growth Engine for Ecommerce,AI-powered SEO infrastructure capturing the 70% of search demand your D2C brand is missing. Live in under 10 hours.,1,0,Needs Attention,Missing Tracking Pixels
+https://jarbug.com/#cap-link,200,416,Jarbug - The Growth Engine for Ecommerce,AI-powered SEO infrastructure capturing the 70% of search demand your D2C brand is missing. Live in under 10 hours.,1,0,Needs Attention,Missing Tracking Pixels
+https://jarbug.com/cdn-cgi/l/email-protection#89faffc9e3e8fbebfceea7eae6e4,404,127,Missing Title,Missing,0,0,Needs Attention,Bad Status: 404 | Missing <title> | Missing <h1> | Missing <meta> description | Missing Tracking Pixels
+https://jarbug.com/#results,200,684,Jarbug - The Growth Engine for Ecommerce,AI-powered SEO infrastructure capturing the 70% of search demand your D2C brand is missing. Live in under 10 hours.,1,0,Needs Attention,Missing Tracking Pixels
+https://jarbug.com/#cap-discover,200,200,Jarbug - The Growth Engine for Ecommerce,AI-powered SEO infrastructure capturing the 70% of search demand your D2C brand is missing. Live in under 10 hours.,1,0,Needs Attention,Missing Tracking Pixels
+https://jarbug.com/#catalog-reframe,200,246,Jarbug - The Growth Engine for Ecommerce,AI-powered SEO infrastructure capturing the 70% of search demand your D2C brand is missing. Live in under 10 hours.,1,0,Needs Attention,Missing Tracking Pixels
+https://jarbug.com/blog,200,555,Jarbug - The Growth Engine for Ecommerce,AI-powered SEO infrastructure that captures the 70% of search demand your D2C brand is missing - without developers. Live in under 10 hours.,1,0,Needs Attention,Missing Tracking Pixels
+https://jarbug.com/privacy#cookies,200,434,Privacy Policy - Jarbug,"How Jarbug collects, uses, shares, and protects your personal information, and the choices and rights available to you.",1,0,Needs Attention,Missing Tracking Pixels
+https://jarbug.com/reports,200,541,Revenue Assessment Reports | Jarbug,"Browse Jarbug SEO revenue assessment reports with keyword gaps, search demand estimates, and projected organic revenue uplift for D2C brands.",1,0,Needs Attention,Missing Tracking Pixels
+https://jarbug.com/terms,200,578,Terms and Conditions - Jarbug,"The terms that govern your access to and use of Jarbug's website, web application, and related services.",1,0,Needs Attention,Missing Tracking Pixels
+https://jarbug.com/case-studies,200,588,Case Studies | Jarbug,"See how D2C brands use Jarbug to capture missed organic demand, scale SmartPages, and grow revenue.",1,0,Needs Attention,Missing Tracking Pixels
+https://jarbug.com/#comp,200,256,Jarbug - The Growth Engine for Ecommerce,AI-powered SEO infrastructure capturing the 70% of search demand your D2C brand is missing. Live in under 10 hours.,1,0,Needs Attention,Missing Tracking Pixels
+https://jarbug.com/contact,200,1218,Book a Demo - Jarbug,Get your free revenue assessment in under 2 minutes. Share your store URL and we'll call with your keyword gap and revenue opportunity.,1,0,Needs Attention,Missing Tracking Pixels
+https://jarbug.com/privacy,200,163,Privacy Policy - Jarbug,"How Jarbug collects, uses, shares, and protects your personal information, and the choices and rights available to you.",1,0,Needs Attention,Missing Tracking Pixels
+https://jarbug.com/#what-changes,200,298,Jarbug - The Growth Engine for Ecommerce,AI-powered SEO infrastructure capturing the 70% of search demand your D2C brand is missing. Live in under 10 hours.,1,0,Needs Attention,Missing Tracking Pixels
+https://jarbug.com/#problem,200,180,Jarbug - The Growth Engine for Ecommerce,AI-powered SEO infrastructure capturing the 70% of search demand your D2C brand is missing. Live in under 10 hours.,1,0,Needs Attention,Missing Tracking Pixels
+https://jarbug.com/pricing,200,495,Pricing - Jarbug Growth Engine,"Simple, catalog-based pricing. From $129/mo for up to 100 SKUs (500 SmartPages). Scale as your catalog grows. See your ROI before you commit.",1,0,Needs Attention,Missing Tracking Pixels
+https://jarbug.com/#faq,200,252,Jarbug - The Growth Engine for Ecommerce,AI-powered SEO infrastructure capturing the 70% of search demand your D2C brand is missing. Live in under 10 hours.,1,0,Needs Attention,Missing Tracking Pixels
+https://jarbug.com/seo-roi-calculator,404,180,Missing Title,Missing,0,0,Needs Attention,Bad Status: 404 | Missing <title> | Missing <h1> | Missing <meta> description | Missing Tracking Pixels
+https://jarbug.com/#integrations,200,229,Jarbug - The Growth Engine for Ecommerce,AI-powered SEO infrastructure capturing the 70% of search demand your D2C brand is missing. Live in under 10 hours.,1,0,Needs Attention,Missing Tracking Pixels
+https://jarbug.com/cdn-cgi/l/email-protection#1e6d685e747f6c7c6b79307d7173,404,163,Missing Title,Missing,0,0,Needs Attention,Bad Status: 404 | Missing <title> | Missing <h1> | Missing <meta> description | Missing Tracking Pixels
+https://jarbug.com/cdn-cgi/l/email-protection#037075436962716176642d606c6e,404,669,Missing Title,Missing,0,0,Needs Attention,Bad Status: 404 | Missing <title> | Missing <h1> | Missing <meta> description | Missing Tracking Pixels
+https://jarbug.com/cdn-cgi/l/email-protection#097a7f4963687b6b7c6e276a6664,404,129,Missing Title,Missing,0,0,Needs Attention,Bad Status: 404 | Missing <title> | Missing <h1> | Missing <meta> description | Missing Tracking Pixels
+https://jarbug.com/posts/why-d2c-brands-are-ditching-seo-agencies-for-ai-jarbug,200,5500,Why D2C Brands Are Ditching SEO Agencies for AI | Jarbug,Traditional SEO agencies can't keep up with modern D2C growth. Discover why leading brands are switching to AI-powered SEO that scales without the overhead.,1,0,Needs Attention,High Latency/Timeout: 5500ms | Missing Tracking Pixels
+https://jarbug.com/cdn-cgi/l/email-protection#295a5f6943485b4b5c4e074a4644,404,180,Missing Title,Missing,0,0,Needs Attention,Bad Status: 404 | Missing <title> | Missing <h1> | Missing <meta> description | Missing Tracking Pixels
+https://jarbug.com/privacy#introduction,200,300,Privacy Policy - Jarbug,"How Jarbug collects, uses, shares, and protects your personal information, and the choices and rights available to you.",1,0,Needs Attention,Missing Tracking Pixels
+https://jarbug.com/privacy#contact,200,199,Privacy Policy - Jarbug,"How Jarbug collects, uses, shares, and protects your personal information, and the choices and rights available to you.",1,0,Needs Attention,Missing Tracking Pixels
+https://jarbug.com/cdn-cgi/l/email-protection#bccfcafcd6ddcedec9db92dfd3d1,404,174,Missing Title,Missing,0,0,Needs Attention,Bad Status: 404 | Missing <title> | Missing <h1> | Missing <meta> description | Missing Tracking Pixels
+https://jarbug.com/privacy#information-we-collect,200,305,Privacy Policy - Jarbug,"How Jarbug collects, uses, shares, and protects your personal information, and the choices and rights available to you.",1,0,Needs Attention,Missing Tracking Pixels
+https://jarbug.com/privacy#data-retention,200,181,Privacy Policy - Jarbug,"How Jarbug collects, uses, shares, and protects your personal information, and the choices and rights available to you.",1,0,Needs Attention,Missing Tracking Pixels
+https://jarbug.com/privacy#children,200,186,Privacy Policy - Jarbug,"How Jarbug collects, uses, shares, and protects your personal information, and the choices and rights available to you.",1,0,Needs Attention,Missing Tracking Pixels
+https://jarbug.com/privacy#how-we-use,200,230,Privacy Policy - Jarbug,"How Jarbug collects, uses, shares, and protects your personal information, and the choices and rights available to you.",1,0,Needs Attention,Missing Tracking Pixels
+https://jarbug.com/cdn-cgi/l/email-protection#1b686d5b717a69796e7c35787476,404,195,Missing Title,Missing,0,0,Needs Attention,Bad Status: 404 | Missing <title> | Missing <h1> | Missing <meta> description | Missing Tracking Pixels
+https://jarbug.com/cdn-cgi/l/email-protection#433035032922312136246d202c2e,404,182,Missing Title,Missing,0,0,Needs Attention,Bad Status: 404 | Missing <title> | Missing <h1> | Missing <meta> description | Missing Tracking Pixels
+https://jarbug.com/privacy#changes,200,209,Privacy Policy - Jarbug,"How Jarbug collects, uses, shares, and protects your personal information, and the choices and rights available to you.",1,0,Needs Attention,Missing Tracking Pixels
+https://jarbug.com/privacy#third-parties,200,330,Privacy Policy - Jarbug,"How Jarbug collects, uses, shares, and protects your personal information, and the choices and rights available to you.",1,0,Needs Attention,Missing Tracking Pixels
+https://jarbug.com/privacy#google-api,200,223,Privacy Policy - Jarbug,"How Jarbug collects, uses, shares, and protects your personal information, and the choices and rights available to you.",1,0,Needs Attention,Missing Tracking Pixels
+https://jarbug.com/cdn-cgi/l/email-protection#a2d1d4e2c8c3d0c0d7c58cc1cdcf,404,178,Missing Title,Missing,0,0,Needs Attention,Bad Status: 404 | Missing <title> | Missing <h1> | Missing <meta> description | Missing Tracking Pixels
+https://jarbug.com/privacy#how-we-share,200,201,Privacy Policy - Jarbug,"How Jarbug collects, uses, shares, and protects your personal information, and the choices and rights available to you.",1,0,Needs Attention,Missing Tracking Pixels
+https://jarbug.com/privacy#international,200,186,Privacy Policy - Jarbug,"How Jarbug collects, uses, shares, and protects your personal information, and the choices and rights available to you.",1,0,Needs Attention,Missing Tracking Pixels
+https://jarbug.com/privacy#your-rights,200,259,Privacy Policy - Jarbug,"How Jarbug collects, uses, shares, and protects your personal information, and the choices and rights available to you.",1,0,Needs Attention,Missing Tracking Pixels
+https://jarbug.com/privacy#data-security,200,272,Privacy Policy - Jarbug,"How Jarbug collects, uses, shares, and protects your personal information, and the choices and rights available to you.",1,0,Needs Attention,Missing Tracking Pixels
+https://jarbug.com/research/respikart.com,200,4063,SEO Revenue Report: respikart.com | Jarbug,"This SEO opportunity report outlines key strategies for enhancing the online visibility and sales potential of Respikart, a leading provider of medical equ",1,0,Needs Attention,High Latency/Timeout: 4063ms | Missing Tracking Pixels
+https://jarbug.com/research/scubago.com,200,3562,SEO Revenue Report: scubago.com | Jarbug,This SEO opportunity report identifies key areas for Scubago to enhance its online presence and drive sales through targeted keyword optimization and conte,1,0,Needs Attention,High Latency/Timeout: 3562ms | Missing Tracking Pixels
+https://jarbug.com/research/agapiclothing.com,200,3679,SEO Revenue Report: agapiclothing.com | Jarbug,Agapi Clothing is positioned to enhance its online visibility and sales through targeted SEO strategies focused on buyer intent. By optimizing for specific,1,0,Needs Attention,High Latency/Timeout: 3679ms | Missing Tracking Pixels
+https://jarbug.com/research/joylandmontessorischool.com,200,3441,SEO Revenue Report: joylandmontessorischool.com | Jarbug,"This SEO opportunity report for Joyland Montessori School identifies key areas for improvement and growth in organic search visibility, focusing on high-in",1,0,Needs Attention,High Latency/Timeout: 3441ms | Missing Tracking Pixels
+https://jarbug.com/research/smartaura-2944.myshopify.com,200,3807,SEO Revenue Report: smartaura-2944.myshopify.com | Jarbug,Furious Fashion is positioned to enhance its online presence and drive sales through targeted SEO strategies. By focusing on buyer-intent keywords and opti,1,0,Needs Attention,High Latency/Timeout: 3807ms | Missing Tracking Pixels
+https://jarbug.com/research/visamoda.com,200,3763,SEO Revenue Report: visamoda.com | Jarbug,"This SEO opportunity report for Visamoda identifies key areas for improvement in organic search visibility, focusing on high-intent keywords and content st",1,0,Needs Attention,High Latency/Timeout: 3763ms | Missing Tracking Pixels
+https://jarbug.com/research/velue.in,200,3772,SEO Revenue Report: velue.in | Jarbug,"This report outlines strategic SEO opportunities for Velue, focusing on enhancing visibility and driving sales for their bathroom and kitchen fixtures. By",1,0,Needs Attention,High Latency/Timeout: 3772ms | Missing Tracking Pixels
+https://jarbug.com/cdn-cgi/l/email-protection#b1c2c7f1dbd0c3d3c4d69fd2dedc,404,151,Missing Title,Missing,0,0,Needs Attention,Bad Status: 404 | Missing <title> | Missing <h1> | Missing <meta> description | Missing Tracking Pixels
+http://quotes.toscrape.com,0,0,Missing Title,Missing,0,0,Needs Attention,Bad Status: 0 | High Latency/Timeout: 0ms | Missing <title> | Missing <h1> | Missing <meta> description | Missing Tracking Pixels
+https://example.com,200,5542,Example Domain,Missing,1,0,Needs Attention,High Latency/Timeout: 5542ms | Missing <meta> description | Missing Tracking Pixels
+https://books.toscrape.com,200,2024,All products | Books to Scrape - Sandbox,Missing,1,0,Needs Attention,Missing <meta> description | Missing Tracking Pixels
+https://books.toscrape.com/catalogue/category/books/science_22/index.html,200,407,"Science | 
+     Books to Scrape - Sandbox",,1,0,Needs Attention,Missing <meta> description | Missing Tracking Pixels
+https://books.toscrape.com/catalogue/category/books/parenting_28/index.html,200,1502,"Parenting | 
+     Books to Scrape - Sandbox",,1,0,Needs Attention,Missing <meta> description | Missing Tracking Pixels
+https://books.toscrape.com/catalogue/category/books/adult-fiction_29/index.html,200,1538,"Adult Fiction | 
+     Books to Scrape - Sandbox",,1,0,Needs Attention,Missing <meta> description | Missing Tracking Pixels
+https://books.toscrape.com/catalogue/category/books/childrens_11/index.html,200,1628,"Childrens | 
+     Books to Scrape - Sandbox",,1,0,Needs Attention,Missing <meta> description | Missing Tracking Pixels
+https://books.toscrape.com/catalogue/category/books_1/index.html,200,1751,"Books | 
+     Books to Scrape - Sandbox",,1,0,Needs Attention,Missing <meta> description | Missing Tracking Pixels
+https://books.toscrape.com/catalogue/category/books/spirituality_39/index.html,200,452,"Spirituality | 
+     Books to Scrape - Sandbox",,1,0,Needs Attention,Missing <meta> description | Missing Tracking Pixels
+https://books.toscrape.com/catalogue/category/books/self-help_41/index.html,200,377,"Self Help | 
+     Books to Scrape - Sandbox",,1,0,Needs Attention,Missing <meta> description | Missing Tracking Pixels
+https://books.toscrape.com/catalogue/category/books/academic_40/index.html,200,357,"Academic | 
+     Books to Scrape - Sandbox",,1,0,Needs Attention,Missing <meta> description | Missing Tracking Pixels
+https://books.toscrape.com/catalogue/category/books/suspense_44/index.html,200,382,"Suspense | 
+     Books to Scrape - Sandbox",,1,0,Needs Attention,Missing <meta> description | Missing Tracking Pixels
+https://books.toscrape.com/catalogue/category/books/cultural_49/index.html,200,393,"Cultural | 
+     Books to Scrape - Sandbox",,1,0,Needs Attention,Missing <meta> description | Missing Tracking Pixels
+https://books.toscrape.com/catalogue/category/books/politics_48/index.html,200,426,"Politics | 
+     Books to Scrape - Sandbox",,1,0,Needs Attention,Missing <meta> description | Missing Tracking Pixels
+https://books.toscrape.com/catalogue/category/books/autobiography_27/index.html,200,738,"Autobiography | 
+     Books to Scrape - Sandbox",,1,0,Needs Attention,Missing <meta> description | Missing Tracking Pixels
+https://books.toscrape.com/catalogue/category/books/default_15/index.html,200,808,"Default | 
+     Books to Scrape - Sandbox",,1,0,Needs Attention,Missing <meta> description | Missing Tracking Pixels
+https://books.toscrape.com/catalogue/category/books/paranormal_24/index.html,200,384,"Paranormal | 
+     Books to Scrape - Sandbox",,1,0,Needs Attention,Missing <meta> description | Missing Tracking Pixels
+https://books.toscrape.com/catalogue/category/books/art_25/index.html,200,1804,"Art | 
+     Books to Scrape - Sandbox",,1,0,Needs Attention,Missing <meta> description | Missing Tracking Pixels

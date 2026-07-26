@@ -1,0 +1,21 @@
+URL,Status Code,Speed (ms),Page Title,H1 Present,Readiness,Issues to Fix
+https://www.python.org,0,0,Missing Title,0,Needs Attention,Bad Status: 0 | High Latency/Timeout: 0ms | Missing <title> | Missing <h1>
+https://www.python.org/success-stories/category/engineering/,200,484,Unknown,0,Needs Attention,Missing <h1>
+https://www.python.org/about/help/,200,481,Unknown,0,Needs Attention,Missing <h1>
+https://www.python.org/success-stories/category/arts/,200,402,Unknown,0,Needs Attention,Missing <h1>
+https://www.python.org/psf-landing/,200,177,Unknown,0,Needs Attention,Missing <h1>
+https://www.python.org/dev/,200,320,Unknown,0,Needs Attention,Missing <h1>
+https://www.python.org/community/sigs/,200,353,Unknown,0,Needs Attention,Missing <h1>
+https://www.python.org/events/python-events/2137/,200,897,Unknown,0,Needs Attention,Missing <h1>
+https://www.python.org/events/python-events/2197/,200,106,Unknown,0,Needs Attention,Missing <h1>
+https://www.python.org/events/calendars/,200,436,Unknown,0,Needs Attention,Missing <h1>
+https://www.python.org/doc/essays/,200,393,Unknown,0,Needs Attention,Missing <h1>
+https://www.python.org/downloads/source/,200,644,Unknown,0,Needs Attention,Missing <h1>
+https://www.python.org/downloads/ios/,200,133,Unknown,0,Needs Attention,Missing <h1>
+https://www.python.org/dev/core-mentorship/,200,389,Unknown,0,Needs Attention,Missing <h1>
+https://www.python.org/success-stories/category/government/,200,370,Unknown,0,Needs Attention,Missing <h1>
+https://www.python.org/success-stories/,200,362,Unknown,0,Needs Attention,Missing <h1>
+https://www.python.org/about/quotes/,200,398,Unknown,0,Needs Attention,Missing <h1>
+https://www.python.org/psf/community-stories/,200,386,Unknown,0,Needs Attention,Missing <h1>
+https://www.python.org/events/python-events/2176/,200,134,Unknown,0,Needs Attention,Missing <h1>
+https://www.python.org/community/forums/,200,336,Unknown,0,Needs Attention,Missing <h1>

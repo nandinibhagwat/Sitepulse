@@ -1,25 +1,42 @@
 import asyncio
+import argparse
 import sys
 from crawler.engine import CrawlerEngine
 
 async def main():
-    # 1. Define your target and MySQL credentials
-    start_url = "https://www.python.org"       # You can change this to any URL you want to test
-    db_host = "localhost"                      # Usually 'localhost' or '127.0.0.1'
-    db_user = "root"                           # Your MySQL username
-    db_password = "Me@448262"                  # IMPORTANT: Replace with your actual MySQL password
-    db_name = "sitepulse_db"                   # The database you want to use
+    # 1. Set up the argument parser
+    parser = argparse.ArgumentParser(
+        description="SitePulse: PPC Landing Page & SEO Crawler",
+        epilog="Example usage: python test_crawler.py https://example.com --pages 25 --depth 2"
+    )
     
-    # 2. Define your crawler constraints
-    max_pages = 20                             # Stop after scraping this many pages
-    max_depth = 2                              # How many clicks deep the crawler is allowed to go
+    # 2. Define the CLI arguments
+    parser.add_argument("url", help="The target URL to audit (e.g., https://example.com)")
+    parser.add_argument("--pages", type=int, default=50, help="Maximum number of pages to crawl (default: 50)")
+    parser.add_argument("--depth", type=int, default=3, help="Maximum crawl depth (default: 3)")
     
-    print(f"[*] Starting crawler on: {start_url}")
-    print(f"[*] Limits set -> Max Pages: {max_pages} | Max Depth: {max_depth}")
+    # Parse the arguments provided by the user in the terminal
+    args = parser.parse_args()
     
-    # 3. Initialize the engine with your database credentials and constraints
+    target_url = args.url
+    max_pages = args.pages
+    max_depth = args.depth
+    
+    print("\n========================================")
+    print("         SITEPULSE CRAWLER BOOT         ")
+    print("========================================\n")
+    print(f"[*] Target URL: {target_url}")
+    print(f"[*] Config: Max Pages = {max_pages} | Max Depth = {max_depth}\n")
+    
+    # 3. Database credentials
+    db_host = 'localhost'
+    db_user = 'root'
+    db_password = 'Me@448262'
+    db_name = 'sitepulse_db'
+    
+    # 4. Initialize the engine with CLI variables
     engine = CrawlerEngine(
-        start_url=start_url,
+        start_url=target_url,
         db_host=db_host,
         db_user=db_user,
         db_password=db_password,
@@ -28,13 +45,9 @@ async def main():
         max_depth=max_depth
     )
     
-    # 4. Run the crawler
     await engine.run()
-    print("[+] Crawling complete.")
 
 if __name__ == "__main__":
-    # This ensures the script runs gracefully on Windows without throwing RuntimeErrors
     if sys.platform == 'win32':
         asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
-        
     asyncio.run(main())
